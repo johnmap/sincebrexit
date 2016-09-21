@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+	<head>
+		<link rel="stylesheet" type="text/css" href="jquery.fullPage.min.css" />
+		<link rel="stylesheet" type="text/css" href="sincebrex.css" />
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		
+		<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+		<script src="vendors/jquery.easings.min.js"></script>
+		
+		
+		<!-- This following line is only necessary in the case of using the plugin option `scrollOverflow:true` -->
+		<script type="text/javascript" src="scrolloverflow.min.js"></script>
+		
+		<script type="text/javascript" src="jquery.fullPage.min.js"></script>
+		
+		<script>
+			$(document).ready(function() {
+				$('#fullpage').fullpage();
+			});
+		</script>
+		
+	</head>
+	<body>
+		
+		<div id="fullpage">
+			<div class="section intro"><h1 class="fitwidth">Since the Brexit vote...</h1></div>
+			<div class="section currency">
+				<h1>The value of the &pound; dropped to an all time low</h1>
+			</div>
+			<div class="section">Some section</div>
+			<div class="section">Some section</div>
+		</div>
+		
+		
+	</body>
+</html>
